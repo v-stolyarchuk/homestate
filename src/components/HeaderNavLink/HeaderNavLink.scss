@@ -1,0 +1,18 @@
+@use '../../styles/main' as *;
+
+.header {
+    &__nav {
+        &-item {
+            list-style: none;
+        }
+        
+        &-link {
+            text-decoration: none;
+            color: $color-text;
+            
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+}

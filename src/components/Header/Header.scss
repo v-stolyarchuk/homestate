@@ -1,0 +1,10 @@
+@use '../../styles/main' as *;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: $color-surface;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

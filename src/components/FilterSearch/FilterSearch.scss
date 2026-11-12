@@ -1,0 +1,40 @@
+@use '../../styles/main' as *;
+
+.filter-search {
+    margin-bottom: 1.5rem;
+
+    @media (max-width: 768px) {
+        margin-bottom: 1rem;
+    }
+
+    &__input {
+        width: 100%;
+        padding: 0.75rem 1rem;
+        background-color: $color-surface;
+        border: 2px solid $color-line;
+        border-radius: 6px;
+        font-family: $font-body;
+        font-size: 1rem;
+        color: $color-ink;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+        &::placeholder {
+            color: $color-ink-soft;
+        }
+
+        &:hover {
+            border-color: $color-moss;
+        }
+
+        &:focus {
+            outline: none;
+            border-color: $color-moss;
+            box-shadow: 0 0 0 3px rgba(52, 84, 70, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            padding: 0.625rem 0.875rem;
+            font-size: 0.9375rem;
+        }
+    }
+}

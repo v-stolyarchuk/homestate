@@ -1,0 +1,53 @@
+@use '../../styles/main' as *;
+
+.header-nav {
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        @media (max-width: 768px) {
+            gap: 1rem;
+        }
+    }
+
+    &__item {
+        list-style: none;
+    }
+
+    &__link {
+        font-family: $font-body;
+        font-size: 1rem;
+        font-weight: 500;
+        color: $color-ink;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        position: relative;
+
+        &:hover {
+            color: $color-moss;
+        }
+
+        &.active {
+            color: $color-moss;
+            font-weight: 600;
+
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: -4px;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                background-color: $color-moss;
+            }
+        }
+
+        @media (max-width: 768px) {
+            font-size: 0.9375rem;
+        }
+    }
+}

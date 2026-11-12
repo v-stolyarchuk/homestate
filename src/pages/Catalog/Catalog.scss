@@ -1,0 +1,14 @@
+@use '../../styles/main' as *;
+
+.catalog {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: $color-plaster;
+    padding: 2rem;
+
+    @media (max-width: 768px) {
+        gap: 1rem;
+        padding: 1rem;
+    }
+}

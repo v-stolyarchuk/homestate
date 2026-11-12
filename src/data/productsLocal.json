@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Електропилка Makita портативна",
+        "price": 15000,
+        "image": "https://via.placeholder.com/150",
+        "category": "Інструмент",
+        "isNew": true,
+        "oldPrice": 20000
+    },
+    {
+        "id": 2,
+        "name": "Щітка для вичісування шерсті",
+        "price": 200,
+        "image": "https://via.placeholder.com/150",
+        "category": "Для улюбленців",
+        "isNew": false,
+        "oldPrice": 300
+    },
+    {
+        "id": 3,
+        "name": "Відеореєстратор 4К",
+        "price": 300,
+        "image": "https://via.placeholder.com/150",
+        "category": "Автотовари",
+        "isNew": true,
+        "oldPrice": 400
+    },
+    {
+        "id": 4,
+        "name": "Самоклеюча панель декоративна",
+        "price": 400,
+        "image": "https://via.placeholder.com/150",
+        "category": "Для дому",
+        "isNew": false,
+        "oldPrice": 500
+    },
+    {
+        "id": 5,
+        "name": "Лосьйон для тіла DeepPhantasm 150мл",
+        "price": 500,
+        "image": "https://via.placeholder.com/150",
+        "category": "Краса та догляд",
+        "isNew": true,
+        "oldPrice": 600
+    }
+]
